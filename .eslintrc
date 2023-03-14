@@ -1,0 +1,14 @@
+{
+    "extends": ["wesbos"],
+    // "extends": ["wesbox/typescript"]
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "singleQuote": true,
+                "endOfLine": "auto",
+                "tabWidth": 4
+            }
+        ]
+    }
+}
